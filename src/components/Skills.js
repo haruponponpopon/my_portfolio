@@ -54,6 +54,9 @@ export default function Skills() {
                 {/* <SkillCard name="cisco" experience="1 years" img={cisco} /> */}
                 <SkillCard name="docker" experience="1 years" img={docker} />
                 <SkillCard name="git" experience="2 years" img={git} />
+                <SkillCard name="mac" experience="4 years" img={"https://e7.pngegg.com/pngimages/903/667/png-clipart-apple-logo-macbook-pro-iphone-apple-angle-heart.png"} />
+                <SkillCard name="c++" experience="3 years" img={"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png"} />
+                <SkillCard name="PyTorch" experience="3 years" img={"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png"} />
                 {/* <SkillCard name="express" experience="1 years" img={express} /> */}
                 {/* <SkillCard name="gitlab" experience="1 years" img={gitlab} /> */}
                 </Slider>

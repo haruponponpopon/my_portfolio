@@ -36,9 +36,10 @@ export default function Hiro () {
                    <li>
                         <a href='https://github.com/haruponponpopon' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                    </li> 
-                    {/* <li>
-                        <a href='https://instagram.com/damaasth' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
-                    </li> */}
+                    <li>
+                        <a href="https://atcoder.jp/users/harupon20"><img  src="https://img.atcoder.jp/assets/top/img/logo_wh.svg" width="40" height="40"/></a>
+                        {/* <a href='https://instagram.com/damaasth' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a> */}
+                    </li>
                     <li>
                         <a href='https://linkedin.com/in/haruponponpopon' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
                     </li>
