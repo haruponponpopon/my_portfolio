@@ -8,7 +8,7 @@ export default function CertCard(props){
                 <p className="font-light md:text-lg">{props.issued}</p>
                 <p className="font-light text-gray-400">{props.desc}</p>
 
-                <p className="font-light text-gray-400">{props.link}</p>
+                <p className="font-light text-gray-400"><a href={props.link} target="_blank">more info</a></p>
             </div>
         </div>
         </a>
