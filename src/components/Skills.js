@@ -34,28 +34,28 @@ export default function Skills() {
 
     return (
         <div id="skills" className="mt-4 text-white">
-            <h1 className="text-2xl font-bold">Skills</h1>
+            <h1 className="text-2xl font-bold" style={{color: "#00FECA"}}>Skills</h1>
             <p className="font-light text-gray-400">Here are some of my skills</p>
 
             <div className="mt-4">
                 <Slider {...settings}>
                 <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="bash" experience="1 years" img={bash} />
-                <SkillCard name="python" experience="1 years" img={python} />
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="kvm" experience="1 years" img={kvm} />
-                <SkillCard name="mikrotik" experience="1 years" img={mikrotik} />
-                <SkillCard name="kubernetes" experience="1 years" img={kubernetes} />
-                <SkillCard name="ansible" experience="1 years" img={ansible} />
+                {/* <SkillCard name="bash" experience="1 years" img={bash} /> */}
+                <SkillCard name="python" experience="4 years" img={python} />
+                <SkillCard name="javascript" experience="2 years" img={javascript} />
+                <SkillCard name="react" experience="2 years" img={reactIcon} />
+                {/* <SkillCard name="tailwind" experience="1 years" img={tailwind} /> */}
+                {/* <SkillCard name="kvm" experience="1 years" img={kvm} /> */}
+                {/* <SkillCard name="mikrotik" experience="1 years" img={mikrotik} /> */}
+                {/* <SkillCard name="kubernetes" experience="1 years" img={kubernetes} /> */}
+                {/* <SkillCard name="ansible" experience="1 years" img={ansible} /> */}
                 <SkillCard name="windows" experience="1 years" img={windows} />
-                <SkillCard name="react" experience="1 years" img={react} />
-                <SkillCard name="cisco" experience="1 years" img={cisco} />
+                {/* <SkillCard name="react" experience="1 years" img={react} /> */}
+                {/* <SkillCard name="cisco" experience="1 years" img={cisco} /> */}
                 <SkillCard name="docker" experience="1 years" img={docker} />
-                <SkillCard name="git" experience="1 years" img={git} />
-                <SkillCard name="express" experience="1 years" img={express} />
-                <SkillCard name="gitlab" experience="1 years" img={gitlab} />
+                <SkillCard name="git" experience="2 years" img={git} />
+                {/* <SkillCard name="express" experience="1 years" img={express} /> */}
+                {/* <SkillCard name="gitlab" experience="1 years" img={gitlab} /> */}
                 </Slider>
             </div>
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
